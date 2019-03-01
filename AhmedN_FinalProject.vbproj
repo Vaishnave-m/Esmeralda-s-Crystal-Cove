@@ -1,0 +1,2343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F79B7847-0470-48DA-987B-9EA7CFFF00D8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>AhmedN_FinalProject.My.MyApplication</StartupObject>
+    <RootNamespace>AhmedN_FinalProject</RootNamespace>
+    <AssemblyName>AhmedN_FinalProject</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>AhmedN_FinalProject.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>AhmedN_FinalProject.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>3xhumed-Mega-Games-Pack-34-Osmos-4.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm8Ball.Designer.vb">
+      <DependentUpon>frm8Ball.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm8Ball.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm8BallLoading.Designer.vb">
+      <DependentUpon>frm8BallLoading.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm8BallLoading.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAquarius.Designer.vb">
+      <DependentUpon>frmAquarius.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAquarius.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAries.Designer.vb">
+      <DependentUpon>frmAries.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAries.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBooth.designer.vb">
+      <DependentUpon>frmBooth.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBooth.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCancer.Designer.vb">
+      <DependentUpon>frmCancer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCancer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCapricorn.Designer.vb">
+      <DependentUpon>frmCapricorn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCapricorn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEndScene.designer.vb">
+      <DependentUpon>frmEndScene.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEndScene.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEnterRoom.designer.vb">
+      <DependentUpon>frmEnterRoom.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEnterRoom.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEsmeraldaLoading.designer.vb">
+      <DependentUpon>frmEsmeraldaLoading.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEsmeraldaLoading.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmExplainCard.designer.vb">
+      <DependentUpon>frmExplainCard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmExplainCard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFeeling.Designer.vb">
+      <DependentUpon>frmFeeling.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFeeling.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGemini.Designer.vb">
+      <DependentUpon>frmGemini.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmGemini.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHoney.designer.vb">
+      <DependentUpon>frmHoney.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHoney.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHoroscopeLoading.Designer.vb">
+      <DependentUpon>frmHoroscopeLoading.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHoroscopeLoading.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHoroscopes.Designer.vb">
+      <DependentUpon>frmHoroscopes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHoroscopes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHoroscopeStory.designer.vb">
+      <DependentUpon>frmHoroscopeStory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHoroscopeStory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHumanHeart.designer.vb">
+      <DependentUpon>frmHumanHeart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHumanHeart.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLeo.Designer.vb">
+      <DependentUpon>frmLeo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLeo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLibra.Designer.vb">
+      <DependentUpon>frmLibra.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLibra.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLicenseAgreement.Designer.vb">
+      <DependentUpon>frmLicenseAgreement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLicenseAgreement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLoading.designer.vb">
+      <DependentUpon>frmLoading.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoading.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMainPage.Designer.vb">
+      <DependentUpon>frmMainPage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMainPage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMathGame.designer.vb">
+      <DependentUpon>frmMathGame.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMathGame.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMushroom.designer.vb">
+      <DependentUpon>frmMushroom.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMushroom.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPalmResults.designer.vb">
+      <DependentUpon>frmPalmResults.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPalmResults.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPalmRoom.designer.vb">
+      <DependentUpon>frmPalmRoom.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPalmRoom.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPisces.Designer.vb">
+      <DependentUpon>frmPisces.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPisces.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPuzzle.designer.vb">
+      <DependentUpon>frmPuzzle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPuzzle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegularTopics.Designer.vb">
+      <DependentUpon>frmRegularTopics.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegularTopics.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmResults.designer.vb">
+      <DependentUpon>frmResults.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmResults.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRoomLocked.designer.vb">
+      <DependentUpon>frmRoomLocked.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRoomLocked.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSagittarius.Designer.vb">
+      <DependentUpon>frmSagittarius.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSagittarius.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmScorpio.Designer.vb">
+      <DependentUpon>frmScorpio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmScorpio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSelectPartner.designer.vb">
+      <DependentUpon>frmSelectPartner.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSelectPartner.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTarotResults.designer.vb">
+      <DependentUpon>frmTarotResults.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTarotResults.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTaurus.Designer.vb">
+      <DependentUpon>frmTaurus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTaurus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUserIntroductory.designer.vb">
+      <DependentUpon>frmUserIntroductory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmUserIntroductory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVirgo.Designer.vb">
+      <DependentUpon>frmVirgo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmVirgo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm8Ball.resx">
+      <DependentUpon>frm8Ball.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm8BallLoading.resx">
+      <DependentUpon>frm8BallLoading.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAquarius.resx">
+      <DependentUpon>frmAquarius.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAries.resx">
+      <DependentUpon>frmAries.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBooth.resx">
+      <DependentUpon>frmBooth.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCancer.resx">
+      <DependentUpon>frmCancer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCapricorn.resx">
+      <DependentUpon>frmCapricorn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEndScene.resx">
+      <DependentUpon>frmEndScene.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEnterRoom.resx">
+      <DependentUpon>frmEnterRoom.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEsmeraldaLoading.resx">
+      <DependentUpon>frmEsmeraldaLoading.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmExplainCard.resx">
+      <DependentUpon>frmExplainCard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFeeling.resx">
+      <DependentUpon>frmFeeling.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGemini.resx">
+      <DependentUpon>frmGemini.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHoney.resx">
+      <DependentUpon>frmHoney.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHoroscopeLoading.resx">
+      <DependentUpon>frmHoroscopeLoading.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHoroscopes.resx">
+      <DependentUpon>frmHoroscopes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHoroscopeStory.resx">
+      <DependentUpon>frmHoroscopeStory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHumanHeart.resx">
+      <DependentUpon>frmHumanHeart.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLeo.resx">
+      <DependentUpon>frmLeo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLibra.resx">
+      <DependentUpon>frmLibra.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLicenseAgreement.resx">
+      <DependentUpon>frmLicenseAgreement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLoading.resx">
+      <DependentUpon>frmLoading.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMainPage.resx">
+      <DependentUpon>frmMainPage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMathGame.resx">
+      <DependentUpon>frmMathGame.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMushroom.resx">
+      <DependentUpon>frmMushroom.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPalmResults.resx">
+      <DependentUpon>frmPalmResults.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPalmRoom.resx">
+      <DependentUpon>frmPalmRoom.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPisces.resx">
+      <DependentUpon>frmPisces.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPuzzle.resx">
+      <DependentUpon>frmPuzzle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegularTopics.resx">
+      <DependentUpon>frmRegularTopics.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmResults.resx">
+      <DependentUpon>frmResults.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRoomLocked.resx">
+      <DependentUpon>frmRoomLocked.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSagittarius.resx">
+      <DependentUpon>frmSagittarius.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmScorpio.resx">
+      <DependentUpon>frmScorpio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSelectPartner.resx">
+      <DependentUpon>frmSelectPartner.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTarotResults.resx">
+      <DependentUpon>frmTarotResults.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTaurus.resx">
+      <DependentUpon>frmTaurus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUserIntroductory.resx">
+      <DependentUpon>frmUserIntroductory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVirgo.resx">
+      <DependentUpon>frmVirgo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b2642b19b94f8dfdd775b3bc0f4b03e3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red_curtain_elements_vector_background_551222.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stage-3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\351908-1366x768-Pleiades.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ba7d16258122ec8cb2665e60e841f040--kawaii-wallpaper-star-wallpaper.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wink-Emoji-PNG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9d11fd8ee1390d452110fbd447e64658.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\27c6023f36af10bd32d73011fc3c078b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Emoji-Face-Transparent-Background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Face-with-Tears-of-Joy-Emoji-PNG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fearful-Emoji-PNG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Love-Hearts-Eyes-Emoji-PNG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\persons-0015_large.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Love-Hearts-Eyes-Emoji-PNG1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\persons-0019_large.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Smiling-Face-with-Sunglasses-Cool-Emoji-PNG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sad-Emoji-PNG-File.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\persons-0056_large.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\persons-0042.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\persons-0035_large.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\persons-0040_large.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\persons-0051.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coollogo_com-24112877.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\original.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coollogo_com-20595916.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6q3y5vlv.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tehGss6j.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\text.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Title.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maxresdefault.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Feeling.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Feeling2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b40e43b84d8751ed832fe21d51482a79--coordinating-fabrics-sun-moon-stars.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abf813b38015bb55eb032e48c561780b.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\51rCX6otEbL.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zodiac_signs__signs_of_the_zodiac_on_a_blue_background_047591_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8NfoL3ok.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tumblr_static_2e3jhpqngjtwcg08sc8s8c40o_640_v2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\source.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gif.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aquarius.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aries.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capricorn1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sagittarius.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\horoscope-circle-zodiac-sign-constellations-moon-signs-sun-faces-inside-text-stars-gold-round-59312958.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FullWheel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aquarius-006.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sookie_zodiac_aquarius_1_by_sookiesooker.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\070645-glossy-black-3d-button-icon-alphanumeric-word-ok1-sc49.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JgCEFfZW.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\g-gif-update.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heart-animation2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c-141-b-starlifter.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zc51pmHv.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancer_star_sign_by_sookie_by_sookiesooker.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clipesmeralda1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heart-158833_960_720.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\travel-clipart-transparent-5.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Money-clip-art-free-clipart-images-2-clipartandscrap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hollywood-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\luck-clipart-shamrock-7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_superheroes2_bandaid_pack2_lg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\w9m2Qc5o.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sookie_zodiac_capricorn_1_by_sookiesooker.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8amC7BoO.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sookie_zodiac_gemini_1_by_sookiesooker.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\E3A9tYw4.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sookie_zodiac_leo_1_by_sookiesooker.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sookie_zodiac_libra_1_by_sookiesooker.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\l0Z34ywM.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8d9GpB12.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sookie_zodiac_pisces_1_by_sookiesooker.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sagittarius-004.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sookie_zodiac_scorpio_1_by_sookiesooker.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\taurus-006.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sookie_zodiac_virgo_1_by_sookiesooker.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sookie_zodiac_virgo_2_by_sookiesooker.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sookie_zodiac_saggitarious_1_by_sookiesooker.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy-1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FUuvgYRv.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PJWnHSSX.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\y7uPF3vX.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gvmm5muI.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maxresdefault1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FeelingTitle.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled design.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled design %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EsmeraldaTitle.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle-clipart-red-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coral_circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2000px-FF0084_circle.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2000px-Signaltafel_Weiß.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\purple-backgrounds-18539-19006-hd-wallpapers.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\171159522.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9cbfa8ac0403131079413a5cd5ed327f.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tumblr_static_tumblr_static_14vx7eqsjcw004ss88cg8gsw8_640.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wood_background_hd_picture_4_169843.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FeelingCover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5c208f1b14219901b3320d706d24c216--ombre-watercolor-background-purple-watercolor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FortuneTeller.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\psychic-fortune-teller.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6d7c480b12e4eebfde2f8908851e8f16.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tumblr_ochqi04Kz81uxptqno1_500.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screen Shot 2017-11-27 at 12.07.14 AM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\289e9b311377a53d36b0e111cc735eae.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoveCompatibility.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\84167813.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hand-and-star-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\g-gif-update1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HTTP3d3dy50aGVpbnZpc2libGVwYXZpbGlvbi5jb20vYXNzZXRzLzIwMTEvMDYvMDEvY3VydGFpbl92ZW5pY2UuZ2lm.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EmmaWatson.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LadyGaga.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shay-mitchell-smashbox-tout.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChanceTheRapper.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3d-cubes-vector-wallpapers-photo-pinterest-d-wallpapers-and-3d.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-27066_960_720.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-27067_960_720.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\001445-3d-transparent-glass-icon-media-a-media34-up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\update.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\g-gif-update2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Xte69wLd.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sRgxgZUM.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dtvDywKl.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AquariusMatches.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AquariusStar.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aries-2018-years-horoscope-predictions.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\taurus-2018-horoscopes-astrology-susanmiller.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button-29139_960_720.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gemini1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancer-2018-horoscopes-astrology-zodiac.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leo-horoscope-2018.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Virgo-2018-career-money-finance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Virgo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\libra-2018-horoscopes-astrology.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scorpio-2018-horoscope-astrology-zodiac.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sagittarius-2018-horoscopes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capricorn-2018-horoscopes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aquarius-2018-horoscopes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pisces-2018-horoscope.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\001444-3d-transparent-glass-icon-media-a-media33-down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button-29139_960_7201.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-29261_960_720.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AquariusMatchesToday.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AquariusRatingsToday.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AriesButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TaurusButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GeminiButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LeoButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CancerButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LibraButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VirgoButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScorpioButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SagittariusButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CapricornButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PiscesButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\harry-styles-gettyimages-818530114.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DLuqvFoVoAACuFp.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ap_090911089838_sq-3271237f28995f6530d9634ff27228cae88e3440-s900-c85.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Neymar-ThumbsUpish-170729-Ge-300.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1-20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e0bed1fc057c4ac8b350376a7708e70e-800.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1024px-LACMTA_Circle_Purple_Line.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\monthly_11_2012_13c3a4aa37c8b1e1216afe8a9a8a8e09-x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8pool-load.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\videoblocks-misty-blue-fog-smoke-clouds-abstract-background-animation-alpha-channel-included-it-van-be-placed-over-other-backgrounds_hqelvxwghe_thumbnail-full12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tumblr_na4jrdL4xa1sp2uy4o1_400.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8BallConstant.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\empty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Constant8Ball.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AbsolutelyNot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AllSignsPointToYes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnythingIsPossible.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AskAgainLater.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Don%27tCountOnIt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ItIsCertain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MostDefinitely.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MostLikely.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MySourcesSayNo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SignsPointToYes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VeryDoubtful.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WithoutADoubt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\YouMayRelyOnIt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left-button-hi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AriesMatches.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AriesRatings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AquariusButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\White.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scarlet red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CancerMatches.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CancerRATINGS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\659a1ad8192a29456d58a5bbb6520eb6--selena-gomez-haircut-selena-gomez-short-hair.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ariana-grande-tout.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kevin Hart approved photo 600x600.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\416x416.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\silver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pale purple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pale yellow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light emerald.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CapricornMatches.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CapriconRatings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\00657f3ca5ac7e08b9df6dd37d16fd6b.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screen Shot 2017-12-11 at 11.16.43 PM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Michelle_Obama.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\john-legend-201302-1-402.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chocolate brown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grey.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\navy blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GeminiMatches.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GeminiRatings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screen Shot 2017-12-11 at 10.46.06 PM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screen Shot 2017-12-11 at 10.48.32 PM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jolieshape.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screen Shot 2017-12-11 at 10.51.10 PM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\peach.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yellow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LeoMatches.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LeoRatings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jennifer-Lopez-Net-Worth.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barack-Obama-barack-obama-738862_1600_1200.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PVpicW-n_400x400.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\whitney1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\royal purple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orange copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LibraMatches.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LibraRatings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fcefbe9ec22303b7eb28234d88c40c04.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aa32d6d4ca2467974403518dd3ebfe8831c5ced1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Will-Smith.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screen Shot 2017-12-11 at 11.05.12 PM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ivory.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PInk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\turquoise.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PiscesMatches.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PiscesRatings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screen Shot 2017-12-11 at 11.20.01 PM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UfP8Fq6P.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\albert-einstein-color-tongue-picture.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Camila-Cabello.3.ms_.121916.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pale green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grey blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lilac.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SagittariusMatches.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SagittariusRatings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jay-z.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2016-Miley-Cyrus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nicki_minaj_photo_by_kevin_mazur_wireimage_getty_498353136.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beige.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magenta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScorpioMatches.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScorpioRatings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6566903.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AP416230147612_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\090117-kendall-jenner_0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wp-1490165310237.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\emerald green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\midnight blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scarlet red1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TaurusMatches.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TaurusRatings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screen Shot 2017-12-11 at 10.45.03 PM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\combo1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\314709.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\150120-getty-dev-patel-325x325.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\russet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VirgoMatches.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VirgoRatings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screen Shot 2017-12-11 at 11.01.15 PM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\llcTo6_z.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\promo-beyonce-lion-king.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mgid_arc_content_mtv.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light-purple-background-12207.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HoroscopeWheel.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FeelingForm.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Drake.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8Ball Load.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8BallBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8BallGif.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8BallTitle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Albert Einstein.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Angelic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Angelina Jolie.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Angry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Annoyed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aquarius Title.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AquariusRatings.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AquariusSymbol.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ariana Grande.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aries Title.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArrowDown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barack Obama.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Beige Circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Beyonce.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BlueCircle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bruno Mars.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Camila Cabello.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cancer Symbol.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CancerSign.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capricorn Symbol.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capricorn Title.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CareerLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChanningTatum.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chocolate Brown Circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ConstellationBack.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cool.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coralcircle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Curtain.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dave Franco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Demi Lovato.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dev Patel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DJ Khaled.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dwayne Johnson.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Emerald Green Circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fearful.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Feeling Title.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FortuneBack.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Frank Ocean.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gemini Symbol.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gemini Title.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gold Circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Green Circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grey Blue Circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grey Circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Happy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HarryStyles.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HealthLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HeartLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HelpBackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Horoscope Background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HoroscopeBackground.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HoroscopeLoading.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HoroscopeLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hysterical.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ivory Circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jay Z.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JenniferLopez.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\John Legend.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Justin Bieber.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kanye West.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kendall Jenner.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kendrick Lamar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kevin Hart.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kim Kardashian.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kobe Bryant.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lebron James.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Leo Symbol.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Leo Title.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LeonardoDicaprio.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Libra Symbol.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Libra Title.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\License Agreement Background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LicenseAgreement.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Light Blue Circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Light Emerald Circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lilac Circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoveEyes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LuckLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Magenta Circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MagentaCircle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Magic 8Ball Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Magic Ball Logo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Main Page Arrow Button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Main Page Panel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainPageEsmeralda.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Megan Fox.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Messi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Michael Jackson.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MichaelJordan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Michelle Obama.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Midnight Blue Circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Miley Cyrus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MoneyLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Navy Blue Circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nervous.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Neymar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nick Jonas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NickiMinaj.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OKButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Orange Circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pale Green Circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pale Purple Circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pale Yellow Circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PalmReadingIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Peach Circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PinkCircle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pisces Logo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pisces Title.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RedCircle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rihanna.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Royal Purple Circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Russet Circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sagittarius Symbol.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sagittarius Title.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Scarlet Red Circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Scorpio Title.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScorpioSymbol.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Selena Gomez.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shay Mitchell.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Silly.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Silver Circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sleepy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Smirk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StarBackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StarConstellationBackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TarotCardIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Taurus Symbol.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Taurus Title.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TaurusSymbol.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\The Weeknd.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Topics Background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TravelLogo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Turquoise Circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TurquoiseCircle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Usher.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Virgo Symbol.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Virgo Title.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VirgoSymbol.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\White Circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Whitney Houston.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Will Smith.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wink.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yellow Circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zayn Malik.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ZodiacSignChoose.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chakra1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chakra2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chakra3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chakra4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chakra5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chakra6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chakra7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chakra8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chakra9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chakra31.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chili pepper.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chili pepper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chili pepper1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fullChakra.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\honey.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\humanHeart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mushroom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blackwheel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brokenheart.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capricorn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\city of birth.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\country of birth.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crystalBall.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cupid1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cupid2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\date of birth.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\duoHeart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\first Name.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gemini.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gender.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heartBeat.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heartSeparator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heatbeat.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\instruction.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\instruction1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\instruction2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\instruction3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\instruction4.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\instruction5.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\instruction44.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\last Name.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Leo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\libra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\love1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\love2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\love3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\love4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\love5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\love6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\multipleHearts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picLoveBorder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pisces.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Saggitarius.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scorpio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\solarspin.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\taurus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\text1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\text2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\text11.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usertext1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usertext2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usertext3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\virgo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basePalm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blackSky.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\candle.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\candle1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\destiny line 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\destiny line 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\destiny line 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\destiny line 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\destiny line 5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\head line 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\head line 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\head line 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\head line 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\head line 5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heart line 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heart line 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heart line 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heart line 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heart line 5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\life line 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\life line 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\life line 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\life line 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\life line 5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\neonPalmSign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\purpleSymbolHand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smoke.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\starsYellow.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tableBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\woodentable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\worldSpinning.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\potion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carnivalScene.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\door.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\door1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\empty room.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Esmeralda laughing.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\first door.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fortuneSign.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\introSpeech.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\introTentScene.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nail on wall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\speech bubble door.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\speech bubble door1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\speech bubble door2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\speechBubble.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\speechBubble1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\speechBubble2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bluetable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chariot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\death.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deckofcard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\emperor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\empress.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hermit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\justice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lovers.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magician.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pope.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\popess.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\singleCard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\space.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spreadDeck.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\strength.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\table.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\temperance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\the_devil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\the_devil1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\the_hanged_man.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wheeloffortune.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jay_Z.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Will_Smith.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\creepyMusic.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01_Psychic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\489b5a6c3e8ee0091ece69bda0fe61ae.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brown-potion-hi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deco_shelf_potion[ginnybinny].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\final.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GoodgameEmpire_SultanDarsil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green_potion_vector_by_greenmachine987-d9oqjuz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grungy-charcoal-speech-bubble.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mana_potion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OrangePotion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PinkPotion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png_magic_book_by_moonglowlilly-d5z1pgm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\potions.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red_potion_vector__1_by_greenmachine987-d9opoum.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sparkly_background_purple_by_sourl3m0n-d48d75s.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thought-Bubble-PNG-HD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unidentified_potion__level_1___for_sale_by_adorabless-d4gi9l3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wood-with-warm-lights_1048-3935.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FortuneTellingMusic.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoveBackground.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RoomLockedMusic.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HoroscopeBackground.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8BallBackground.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cauldron.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cauldron.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\potionMakingRoom.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PotionMix.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\witchPotionMix.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="3xhumed-Mega-Games-Pack-34-Osmos-4.ico" />
+    <None Include="Resources\End Scene Background Music.wav" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="tlpHover.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="lblAir.ToolTip" xml:space="preserve">
+    <value>Air Signs are rational, social, and love communication and relationships
+with other people. They are thinkers, friendly, intellectual, communicatvie,
+and analytial. The love philosophical discussions, social gatherings and 
+good books. They enjoy giving advice, but they can also be very superficial.</value>
+  </data>
+  <data name="lblHealth.Text" xml:space="preserve">
+    <value>The transit of the day increases your affection for a partner, for children, even pets - anything that you shower with love will feel the effect of this planetary energy. However, don't expect it to be received with a big thank you! Sometimes people take what you give in a way that makes you wonder whether they know how precious your feelings are. Don't let that make you feel resentful - just mention this concern and all will be well. Be sure to drink lots of water to help keep your emotional state flexible.</value>
+  </data>
+  <data name="lblLuck.Text" xml:space="preserve">
+    <value>Work that engages your mind and helps you think as well as stimulating other people’s minds is the best line of work for you to engage in. You also like variety and do something that is going to uplift people generally. You have a wealth of ideas and can progressively put forward concepts that can not only improve the quality of the work but also the way in which people work together. All of these wonderful attributes will contribute to your luck in life.</value>
+  </data>
+  <data name="lblTravel.Text" xml:space="preserve">
+    <value>Your famed friendliness is in full force on Monday and Tuesday, allowing you to experience the culture of where you are in an extraordinary way. These are the kinds of connections you'll treasure, so take lots of pictures and give out your email address with abandon. By midweek, you'll need to slow down; even you require a little privacy now and then. Group activities are favored this weekend -- and taking an architectural or environmental tour can lead you to fascinating people who share your values.</value>
+  </data>
+  <data name="lblMoney.Text" xml:space="preserve">
+    <value>It's a time of much change for you. Your workplace may be moving in a more enjoyable direction of late, and you're able to create some peace for yourself in the midst of others' stress. But the Universe demands nothing less than complete transformation when it comes to your spending patterns with family members, kids, or romantic partners. A little gets your point across. You don't have to go overboard.</value>
+  </data>
+  <data name="lblCareer.Text" xml:space="preserve">
+    <value>This week marks an important yearly beginning for you. The cosmos is asking you to wipe the slate clean and start fresh. You are in control of your destiny. Take a new route. Success is yours if you aren't afraid to take a risk.</value>
+  </data>
+  <data name="lblLove.Text" xml:space="preserve">
+    <value>Now's a good time to loosen up and drop some of your petty concerns about your sweetheart. If you have been feeling uptight, or have been blaming your partner (current or prospective) for all kinds of things that perhaps they are not entirely guilty of, then it may be time to give them a break. Rather than complaining, try taking them out for a well-deserved meal.</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>95</value>
+  </metadata>
+</root>
